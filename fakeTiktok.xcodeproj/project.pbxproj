@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C4DA7962BF35B95003245FF /* fakeTiktokApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4DA7952BF35B95003245FF /* fakeTiktokApp.swift */; };
+		5C4DA7982BF35B95003245FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4DA7972BF35B95003245FF /* ContentView.swift */; };
+		5C4DA79A2BF35B98003245FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C4DA7992BF35B98003245FF /* Assets.xcassets */; };
+		5C4DA79D2BF35B98003245FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C4DA79C2BF35B98003245FF /* Preview Assets.xcassets */; };
+		5C4DA7B62BF3699B003245FF /* MainTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4DA7B52BF3699B003245FF /* MainTab.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C4DA7922BF35B95003245FF /* fakeTiktok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fakeTiktok.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C4DA7952BF35B95003245FF /* fakeTiktokApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fakeTiktokApp.swift; sourceTree = "<group>"; };
+		5C4DA7972BF35B95003245FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5C4DA7992BF35B98003245FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C4DA79C2BF35B98003245FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5C4DA7B52BF3699B003245FF /* MainTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTab.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C4DA78F2BF35B95003245FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C4DA7892BF35B95003245FF = {
+			isa = PBXGroup;
+			children = (
+				5C4DA7942BF35B95003245FF /* fakeTiktok */,
+				5C4DA7932BF35B95003245FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C4DA7932BF35B95003245FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C4DA7922BF35B95003245FF /* fakeTiktok.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C4DA7942BF35B95003245FF /* fakeTiktok */ = {
+			isa = PBXGroup;
+			children = (
+				5C4DA7A92BF361AA003245FF /* App */,
+				5C4DA7A82BF361A9003245FF /* Core */,
+				5C4DA7A72BF361A7003245FF /* Extensions */,
+				5C4DA7A62BF361A5003245FF /* Models */,
+				5C4DA7A52BF361A3003245FF /* Services */,
+				5C4DA7A32BF3618B003245FF /* Utils */,
+				5C4DA7992BF35B98003245FF /* Assets.xcassets */,
+				5C4DA79B2BF35B98003245FF /* Preview Content */,
+			);
+			path = fakeTiktok;
+			sourceTree = "<group>";
+		};
+		5C4DA79B2BF35B98003245FF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5C4DA79C2BF35B98003245FF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5C4DA7A32BF3618B003245FF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		5C4DA7A52BF361A3003245FF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5C4DA7A62BF361A5003245FF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5C4DA7A72BF361A7003245FF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5C4DA7A82BF361A9003245FF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				5C4DA7B42BF363CF003245FF /* Authentication */,
+				5C4DA7B32BF363CE003245FF /* Comments */,
+				5C4DA7B22BF363CD003245FF /* Componets */,
+				5C4DA7B12BF363CC003245FF /* Feed */,
+				5C4DA7B02BF363CA003245FF /* Notifications */,
+				5C4DA7AF2BF363C5003245FF /* Profile */,
+				5C4DA7AE2BF363C4003245FF /* Root */,
+				5C4DA7AD2BF363C3003245FF /* Search */,
+				5C4DA7AC2BF363C2003245FF /* TabBar */,
+				5C4DA7AB2BF363A5003245FF /* UploadMedia */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		5C4DA7A92BF361AA003245FF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5C4DA7952BF35B95003245FF /* fakeTiktokApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5C4DA7AB2BF363A5003245FF /* UploadMedia */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UploadMedia;
+			sourceTree = "<group>";
+		};
+		5C4DA7AC2BF363C2003245FF /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				5C4DA7B52BF3699B003245FF /* MainTab.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		5C4DA7AD2BF363C3003245FF /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		5C4DA7AE2BF363C4003245FF /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				5C4DA7972BF35B95003245FF /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		5C4DA7AF2BF363C5003245FF /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		5C4DA7B02BF363CA003245FF /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		5C4DA7B12BF363CC003245FF /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		5C4DA7B22BF363CD003245FF /* Componets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Componets;
+			sourceTree = "<group>";
+		};
+		5C4DA7B32BF363CE003245FF /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Comments;
+			sourceTree = "<group>";
+		};
+		5C4DA7B42BF363CF003245FF /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C4DA7912BF35B95003245FF /* fakeTiktok */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C4DA7A02BF35B98003245FF /* Build configuration list for PBXNativeTarget "fakeTiktok" */;
+			buildPhases = (
+				5C4DA78E2BF35B95003245FF /* Sources */,
+				5C4DA78F2BF35B95003245FF /* Frameworks */,
+				5C4DA7902BF35B95003245FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fakeTiktok;
+			productName = fakeTiktok;
+			productReference = 5C4DA7922BF35B95003245FF /* fakeTiktok.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C4DA78A2BF35B95003245FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					5C4DA7912BF35B95003245FF = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 5C4DA78D2BF35B95003245FF /* Build configuration list for PBXProject "fakeTiktok" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C4DA7892BF35B95003245FF;
+			productRefGroup = 5C4DA7932BF35B95003245FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C4DA7912BF35B95003245FF /* fakeTiktok */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C4DA7902BF35B95003245FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C4DA79D2BF35B98003245FF /* Preview Assets.xcassets in Resources */,
+				5C4DA79A2BF35B98003245FF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C4DA78E2BF35B95003245FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C4DA7982BF35B95003245FF /* ContentView.swift in Sources */,
+				5C4DA7B62BF3699B003245FF /* MainTab.swift in Sources */,
+				5C4DA7962BF35B95003245FF /* fakeTiktokApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5C4DA79E2BF35B98003245FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C4DA79F2BF35B98003245FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C4DA7A12BF35B98003245FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"fakeTiktok/Preview Content\"";
+				DEVELOPMENT_TEAM = S3L8UH6S4Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = popper.fakeTiktok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C4DA7A22BF35B98003245FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"fakeTiktok/Preview Content\"";
+				DEVELOPMENT_TEAM = S3L8UH6S4Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = popper.fakeTiktok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C4DA78D2BF35B95003245FF /* Build configuration list for PBXProject "fakeTiktok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C4DA79E2BF35B98003245FF /* Debug */,
+				5C4DA79F2BF35B98003245FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C4DA7A02BF35B98003245FF /* Build configuration list for PBXNativeTarget "fakeTiktok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C4DA7A12BF35B98003245FF /* Debug */,
+				5C4DA7A22BF35B98003245FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C4DA78A2BF35B95003245FF /* Project object */;
+}
