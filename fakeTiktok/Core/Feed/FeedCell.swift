@@ -41,18 +41,32 @@ struct FeedCell: View {
                         Button {
                             
                         } label: {
-                            Image(systemName : "heart.fill")
-                                .resizable()
-                                .frame(width: 28, height: 28)
+                            VStack {
+                                Image(systemName : "heart.fill")
+                                    .resizable()
+                                    .frame(width: 28, height: 28)
                                 .foregroundStyle(.white)
+                                
+                                Text("27")
+                                    .font(.caption)
+                                    .foregroundStyle(.white)
+                                    .bold()
+                            }
                         }
                         Button {
                             
                         } label: {
-                            Image(systemName : "ellipsis.bubble.fill")
-                                .resizable()
-                                .frame(width: 28, height: 28)
+                            VStack {
+                                Image(systemName : "ellipsis.bubble.fill")
+                                    .resizable()
+                                    .frame(width: 28, height: 28)
                                 .foregroundStyle(.white)
+                                
+                                Text("12")
+                                    .font(.caption)
+                                    .foregroundStyle(.white)
+                                    .bold()
+                            }
                                 
                         }
                         Button {
@@ -75,6 +89,7 @@ struct FeedCell: View {
                         }
                     }
                 }
+                .padding(.bottom, 85)
             }
             .padding()
         }
