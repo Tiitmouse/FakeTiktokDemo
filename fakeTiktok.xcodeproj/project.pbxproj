@@ -18,6 +18,11 @@
 		5C9801342BF511B500A242BE /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9801332BF511B500A242BE /* UserCell.swift */; };
 		5C9801362BF5160E00A242BE /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9801352BF5160E00A242BE /* Notifications.swift */; };
 		5C9801382BF5161B00A242BE /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9801372BF5161B00A242BE /* NotificationCell.swift */; };
+		5C98013C2BF51A8A00A242BE /* CurrentUserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C98013B2BF51A8A00A242BE /* CurrentUserProfile.swift */; };
+		5C98013E2BF51AB300A242BE /* otherUserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C98013D2BF51AB300A242BE /* otherUserProfile.swift */; };
+		5C9801402BF51B3100A242BE /* ProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C98013F2BF51B3100A242BE /* ProfileHeader.swift */; };
+		5C9801422BF51B3F00A242BE /* PostGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9801412BF51B3F00A242BE /* PostGrid.swift */; };
+		5C9801462BF51DF000A242BE /* UserStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9801452BF51DF000A242BE /* UserStat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +38,11 @@
 		5C9801332BF511B500A242BE /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		5C9801352BF5160E00A242BE /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
 		5C9801372BF5161B00A242BE /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		5C98013B2BF51A8A00A242BE /* CurrentUserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfile.swift; sourceTree = "<group>"; };
+		5C98013D2BF51AB300A242BE /* otherUserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = otherUserProfile.swift; sourceTree = "<group>"; };
+		5C98013F2BF51B3100A242BE /* ProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeader.swift; sourceTree = "<group>"; };
+		5C9801412BF51B3F00A242BE /* PostGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGrid.swift; sourceTree = "<group>"; };
+		5C9801452BF51DF000A242BE /* UserStat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStat.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +183,8 @@
 		5C4DA7AF2BF363C5003245FF /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				5C9801442BF51DBE00A242BE /* View */,
+				5C9801432BF51D9800A242BE /* Components */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -214,6 +226,25 @@
 			children = (
 			);
 			path = Authentication;
+			sourceTree = "<group>";
+		};
+		5C9801432BF51D9800A242BE /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5C9801412BF51B3F00A242BE /* PostGrid.swift */,
+				5C98013F2BF51B3100A242BE /* ProfileHeader.swift */,
+				5C9801452BF51DF000A242BE /* UserStat.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		5C9801442BF51DBE00A242BE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5C98013D2BF51AB300A242BE /* otherUserProfile.swift */,
+				5C98013B2BF51A8A00A242BE /* CurrentUserProfile.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,13 +317,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C98013E2BF51AB300A242BE /* otherUserProfile.swift in Sources */,
+				5C98013C2BF51A8A00A242BE /* CurrentUserProfile.swift in Sources */,
+				5C9801462BF51DF000A242BE /* UserStat.swift in Sources */,
 				5C9801362BF5160E00A242BE /* Notifications.swift in Sources */,
 				5C9801382BF5161B00A242BE /* NotificationCell.swift in Sources */,
 				5C4DA7982BF35B95003245FF /* ContentView.swift in Sources */,
 				5C4DA7BA2BF37389003245FF /* FeedCell.swift in Sources */,
 				5C4DA7B82BF3717C003245FF /* Feed.swift in Sources */,
 				5C9801322BF5119B00A242BE /* Search.swift in Sources */,
+				5C9801402BF51B3100A242BE /* ProfileHeader.swift in Sources */,
 				5C4DA7B62BF3699B003245FF /* MainTab.swift in Sources */,
+				5C9801422BF51B3F00A242BE /* PostGrid.swift in Sources */,
 				5C4DA7962BF35B95003245FF /* fakeTiktokApp.swift in Sources */,
 				5C9801342BF511B500A242BE /* UserCell.swift in Sources */,
 			);
