@@ -24,7 +24,7 @@ struct MainTab: View {
                 .onAppear{selectedTab = 0}
                 .tag(0)
                 
-            Text("Friends")
+            Search()
                 .tabItem {
                     VStack {
                         Image(systemName: selectedTab == 1 ? "person.2.fill" : "person.2")

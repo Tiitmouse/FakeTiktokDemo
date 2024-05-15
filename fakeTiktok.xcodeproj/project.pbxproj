@@ -14,6 +14,8 @@
 		5C4DA7B62BF3699B003245FF /* MainTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4DA7B52BF3699B003245FF /* MainTab.swift */; };
 		5C4DA7B82BF3717C003245FF /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4DA7B72BF3717C003245FF /* Feed.swift */; };
 		5C4DA7BA2BF37389003245FF /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4DA7B92BF37389003245FF /* FeedCell.swift */; };
+		5C9801322BF5119B00A242BE /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9801312BF5119B00A242BE /* Search.swift */; };
+		5C9801342BF511B500A242BE /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9801332BF511B500A242BE /* UserCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		5C4DA7B52BF3699B003245FF /* MainTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTab.swift; sourceTree = "<group>"; };
 		5C4DA7B72BF3717C003245FF /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
 		5C4DA7B92BF37389003245FF /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		5C9801312BF5119B00A242BE /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		5C9801332BF511B500A242BE /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +152,8 @@
 		5C4DA7AD2BF363C3003245FF /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				5C9801312BF5119B00A242BE /* Search.swift */,
+				5C9801332BF511B500A242BE /* UserCell.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -277,8 +283,10 @@
 				5C4DA7982BF35B95003245FF /* ContentView.swift in Sources */,
 				5C4DA7BA2BF37389003245FF /* FeedCell.swift in Sources */,
 				5C4DA7B82BF3717C003245FF /* Feed.swift in Sources */,
+				5C9801322BF5119B00A242BE /* Search.swift in Sources */,
 				5C4DA7B62BF3699B003245FF /* MainTab.swift in Sources */,
 				5C4DA7962BF35B95003245FF /* fakeTiktokApp.swift in Sources */,
+				5C9801342BF511B500A242BE /* UserCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
