@@ -9,5 +9,5 @@ import Foundation
 
 struct Post: Identifiable, Codable {
     let id: String
-    let path: String
+    let videoUrl: String
 }

@@ -10,18 +10,24 @@ import Foundation
 class FeedModel : ObservableObject {
     @Published var posts = [Post]()
     
-    let path1 = Bundle.main.path(forResource: "vid01", ofType:"mp4")
-    let path2 = Bundle.main.path(forResource: "vid02", ofType:"mp4")
-    
+    let videoUrls = [
+        "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+        "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+        "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+        "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"
+    ]
     
 
     init(){
-        
+        fetchPosts()
     }
     
     func fetchPosts(){
         self.posts = [
-           .init(id: NSUUID().uuidString, path: "../../../vid01.mp4")
+           .init(id: NSUUID().uuidString, videoUrl: videoUrls[0]),
+           .init(id: NSUUID().uuidString, videoUrl: videoUrls[1]),
+           .init(id: NSUUID().uuidString, videoUrl: videoUrls[2]),
+           .init(id: NSUUID().uuidString, videoUrl: videoUrls[3]),
         ]
    }
     
